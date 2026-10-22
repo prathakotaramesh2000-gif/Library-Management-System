@@ -1,0 +1,83 @@
+
+[
+  {
+    "id": "local-1",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "year": 1813,
+    "category": "Fiction",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780141439518-M.jpg",
+    "description": "A classic novel about love, family, and society.",
+    "link": "https://openlibrary.org/search?q=Pride+and+Prejudice"
+  },
+  {
+    "id": "local-2",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "year": 2008,
+    "category": "Technology",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780132350884-M.jpg",
+    "description": "Practical principles for writing readable, maintainable software.",
+    "link": "https://openlibrary.org/search?q=Clean+Code"
+  },
+  {
+    "id": "local-3",
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "year": 1988,
+    "category": "Science",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780553380163-M.jpg",
+    "description": "An introduction to cosmology, space, time, and the universe.",
+    "link": "https://openlibrary.org/search?q=A+Brief+History+of+Time"
+  },
+  {
+    "id": "local-4",
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "year": 2018,
+    "category": "Self-help",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780735211292-M.jpg",
+    "description": "A guide to building good habits and changing daily routines.",
+    "link": "https://openlibrary.org/search?q=Atomic+Habits"
+  },
+  {
+    "id": "local-5",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "year": 1925,
+    "category": "Fiction",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780743273565-M.jpg",
+    "description": "A classic story of ambition, wealth, and the American dream.",
+    "link": "https://openlibrary.org/search?q=The+Great+Gatsby"
+  },
+  {
+    "id": "local-6",
+    "title": "The Selfish Gene",
+    "author": "Richard Dawkins",
+    "year": 1976,
+    "category": "Science",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780198788607-M.jpg",
+    "description": "An influential exploration of evolution and gene-centered theory.",
+    "link": "https://openlibrary.org/search?q=The+Selfish+Gene"
+  },
+  {
+    "id": "local-7",
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen et al.",
+    "year": 2022,
+    "category": "Technology",
+    "cover": "https://covers.openlibrary.org/b/isbn/9780262046305-M.jpg",
+    "description": "A comprehensive reference to algorithms and problem solving.",
+    "link": "https://openlibrary.org/search?q=Introduction+to+Algorithms"
+  },
+  {
+    "id": "local-8",
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "year": 2016,
+    "category": "Self-help",
+    "cover": "https://covers.openlibrary.org/b/isbn/9781455586691-M.jpg",
+    "description": "Strategies for focused work and meaningful productivity.",
+    "link": "https://openlibrary.org/search?q=Deep+Work"
+  }
+]

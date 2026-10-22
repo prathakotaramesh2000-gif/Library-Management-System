@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A modern Library Management System to discover books and manage your reading list." />
+  <title>ALEXASPACE | Library Management</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a href="#" class="brand">
+      <span class="brand-icon">A</span>
+      ALEXASPACE
+    </a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#catalog">Explore Books</a>
+      <a href="#saved">My Reading List <span id="saved-count" class="count">0</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="eyebrow">YOUR PERSONAL DIGITAL LIBRARY</span>
+        <h1>Discover your next<br />favorite <span>book.</span></h1>
+        <p>Explore thousands of books, find new authors, and build your personal reading list.</p>
+        <form id="search-form" class="search-bar">
+          <span aria-hidden="true">⌕</span>
+          <input id="search-input" type="search"
+                 placeholder="Search books, authors, or topics..."
+                 aria-label="Search books" />
+          <button type="submit">Search</button>
+        </form>
+        <p class="search-hint">Powered by Open Library</p>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="book book-one"></div>
+        <div class="book book-two"></div>
+        <div class="book book-three"></div>
+        <div class="art-circle"></div>
+        <span class="art-label">READ · LEARN · GROW</span>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Library statistics">
+      <article class="stat-card">
+        <span class="stat-icon">▤</span>
+        <div><strong id="catalog-count">—</strong><p>Books displayed</p></div>
+      </article>
+      <article class="stat-card">
+        <span class="stat-icon">♡</span>
+        <div><strong id="stat-saved">0</strong><p>Saved books</p></div>
+      </article>
+      <article class="stat-card">
+        <span class="stat-icon">⌕</span>
+        <div><strong>Open</strong><p>Book discovery</p></div>
+      </article>
+    </section>
+
+    <section class="catalog section" id="catalog">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">THE COLLECTION</span>
+          <h2 id="catalog-title">Featured Books</h2>
+          <p id="catalog-subtitle">A handpicked selection to get you started.</p>
+        </div>
+        <button id="show-all" class="secondary-button" type="button">Show featured</button>
+      </div>
+
+      <div class="filters" id="filters" aria-label="Filter books">
+        <button class="filter active" data-category="All" type="button">All Books</button>
+        <button class="filter" data-category="Fiction" type="button">Fiction</button>
+        <button class="filter" data-category="Technology" type="button">Technology</button>
+        <button class="filter" data-category="Science" type="button">Science</button>
+        <button class="filter" data-category="Self-help" type="button">Self-help</button>
+      </div>
+
+      <p id="status" class="status" role="status">Loading books...</p>
+      <div class="book-grid" id="book-grid"></div>
+      <div class="center">
+        <button id="load-more" class="secondary-button hidden" type="button">Load more books</button>
+      </div>
+    </section>
+
+    <section class="saved-section section" id="saved">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">YOUR COLLECTION</span>
+          <h2>My Reading List</h2>
+          <p>Books you want to read next.</p>
+        </div>
+      </div>
+      <div id="saved-grid" class="book-grid"></div>
+      <p id="saved-empty" class="empty-state">Your reading list is empty. Save a book to see it here.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#home" class="brand"><span class="brand-icon">A</span>ALLSPACE</a>
+    <p>Built with HTML, CSS, JavaScript & Open Library API.</p>
+    <p>Book data belongs to its respective sources.</p>
+  </footer>
+</body>
+</html>
